@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--<link rel="stylesheet" href="start.css">-->
+  <!--로그인전-->
+  <!--자바스크립트 이벤트 추가-->
+  
+    
+      <!--<p style="text-align: right;"><a href="/start.css">로그인 |</a><a href="/start.css"> 회원가입 |</a>
+      <a href="/start.css"> 고객센터</a></p>-->
+    
+==============================================
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".Logging_1").click(function(){
+      $(".Elogin_bg").css({"display":"block"});
+    })
+
+    $(".LoginpupX").click(function(){
+      $(".Elogin_bg").css({"display" : "none"});
+    })
+  })
+    
+  
+</script>
+
+</head>
+<br>
+
+<body>
+
+<style>
+
+.Logging{margin-left: 80%;}
+
+/* 이벤트 */
+.Elogin_bg{
+  display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7);
+}
+.Elogin{
+  position: absolute; left: calc(50% - 200px); top: calc(50% - 150px); width: 400px; height: 300px; background-color: #fff;
+}
+.Id{margin-right: 10px;
+
+}
+.Pw{
+
+}
+.LoginpupX{border: solid; position: sticky; top 0; width: 100%;
+
+}
+</style>
+
+
+  <div class="Logging">
+    <span class="Logging_1">로그인 | </span>
+    <a href="Join.html"> 회원가입 | </a>
+    <span> 고객센터</span>
+  </div>
+
+  <!-- <style>.Logging span{border:1px solid black ;}</style> -->
+
+  <h1><p style="text-align: center;">싸이트 이름</p></h1>
+  <!--제공하는 서비스 박스 영역-->
+===============================================
+  <!--search-->
+  <p>카테고리</p>
+    <form autocomplete="on">
+    <input id="serach" type="search" placeholder="검색어를 입력해주세요">
+    <button type="submit"><img src="/search돋보기 이미지.png" width="25"></button>
+  </form>
+  
+=================================================
+  <br><br><br>
+
+  <!--로그인창-->
+  <div class="Elogin_bg">
+    <div class="Elogin">
+      <span class="Id">아이디<input type="text"></span><span class="LoginpupX">X</span> <br>
+      <div class="Pw">비밀번호<input type="text"></div>
+      <button type="submit">로그인</button>
+  
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
