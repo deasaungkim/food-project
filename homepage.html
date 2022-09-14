@@ -39,7 +39,11 @@
 list-style: none;
 }
 .Logging{margin-left: 80%;}
-.Logging_p1{display: flex;}
+.Logging_p1{display: flex; background-color: blue; }
+
+.Logging_1{background-color: green;}
+.Logging_2{background-color: yellow;}
+.Logging_3{background-color: darkorange;}
 
 /* 이벤트 */
 .Elogin_bg{
@@ -49,22 +53,25 @@ list-style: none;
   position: absolute; left: calc(50% - 200px); top: calc(50% - 150px); width: 400px; height: 300px; background-color: #fff;
 }
 .Id{margin-right: 10px;
-
 }
 .Pw{
-
 }
 .LoginpupX{border: solid; position: sticky; top 0; width: 100%;
-
 }
+.category{background-color: green; display: flex; width: 1200px; height: 100px; margin: auto;}
+
+.category_1{background-color: blue; width: 100px;}
+.category_2{background-color: coral; width: 200px; margin-left: 800px; display: flex;}
+.btn_1{height: 30px;}
+.btn_2{background-color: yellow; width: 40px; height: 21px;}
 </style>
 
 
   <div class="Logging">
     <ul class="Logging_p1">
-      <li class="Logging_1">로그인 | </li>
-      <li><a href="Join.html">회원가입 | </a></li>
-      <li>고객센터</li>
+      <li class="Logging_1">로그인</li>
+      <li class="Logging_2"><a href="Join.html">회원가입</a></li>
+      <li class="Logging_3">고객센터</li>
     </ul>
   </div>
 
@@ -74,11 +81,18 @@ list-style: none;
   <!--제공하는 서비스 박스 영역-->
 ===============================================
   <!--search-->
-  <p>카테고리</p>
-    <form autocomplete="on">
-    <input id="serach" type="search" placeholder="검색어를 입력해주세요">
-    <button type="submit"><img src="/search돋보기 이미지.png" width="25"></button>
-  </form>
+  <div class="category">
+    <div class="category_1">카테고리</div>
+
+    <div class="category_2">
+      <form class="btn_1" action="">
+        <input id="serach" type="search" placeholder="검색어를 입력해주세요">
+      </form>
+
+      <button class="btn_2"></button>
+    </div>
+  </div>
+  
   
 =================================================
   <br><br><br>
