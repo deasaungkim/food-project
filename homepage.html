@@ -39,12 +39,10 @@
 list-style: none;
 border-style: none;
 }
-.Logging{margin-left: 80%;}
-.Logging_p1{display: flex; background-color: blue; }
 
-.Logging_1{background-color: green;}
-.Logging_2{background-color: yellow;}
-.Logging_3{background-color: darkorange;}
+.Logging_p1{display: flex; background-color: blue; margin-left: 80%;}
+.Logging_p1>li{padding-left: 10px;}
+.Logging_p1> li:not(:last-child){border-right: #000 solid;}
 
 /* 이벤트 */
 .Elogin_bg{
@@ -66,16 +64,21 @@ border-style: none;
 
 .btn_1>input{padding-left: 10px;}
 .btn_2{background-color: yellow; width: 40px; height: 19px; cursor: pointer; margin-top: 18px;}
+
+.click_top{border: solid; width: 60px; margin-left: 90%; text-align: center; margin-top: 60%; background-color: skyblue; border-radius: 100%; cursor: pointer;}
+
+
+
 </style>
 
 
-  <div class="Logging">
-    <ul class="Logging_p1">
+
+    <ul class="Logging_p1" id="link_top_1">
       <li class="Logging_1">로그인</li>
       <li class="Logging_2"><a href="Join.html">회원가입</a></li>
       <li class="Logging_3">고객센터</li>
     </ul>
-  </div>
+  
 
   <!-- <style>.Logging span{border:1px solid black ;}</style> -->
 
@@ -98,6 +101,11 @@ border-style: none;
   
 =================================================
   <br><br><br>
+<!-- top으로가는 버튼 -->
+<div class="click_top">
+<a href="#link_top_1">맨위로</a> 
+</div>
+
 
   <!--로그인창-->
   <div class="Elogin_bg">
