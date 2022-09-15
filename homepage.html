@@ -13,9 +13,11 @@
       <!--<p style="text-align: right;"><a href="/start.css">로그인 |</a><a href="/start.css"> 회원가입 |</a>
       <a href="/start.css"> 고객센터</a></p>-->
     
-==============================================
+
 <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script>
+
+// jQuery
   $(document).ready(function(){
     $(".Logging_1").click(function(){
       $(".Elogin_bg").css({"display":"block"});
@@ -28,6 +30,7 @@
     
   
 </script>
+<link rel="stylesheet" type="text/css" href="/start.css">
 
 </head>
 <br>
@@ -35,56 +38,24 @@
 <body>
 
 <style>
-*{ text-decoration: none;
-list-style: none;
-border-style: none;
-}
-
-.Logging_p1{display: flex; background-color: blue; margin-left: 80%;}
-.Logging_p1>li{padding-left: 10px;}
-.Logging_p1> li:not(:last-child){border-right: #000 solid;}
-
-/* 이벤트 */
-.Elogin_bg{
-  display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7);
-}
-.Elogin{
-  position: absolute; left: calc(50% - 200px); top: calc(50% - 150px); width: 400px; height: 300px; background-color: #fff;
-}
-.Id{margin-right: 10px;
-}
-.Pw{
-}
-.LoginpupX{border: solid; position: sticky; top 0; width: 100%;
-}
-.category{background-color: green; display: flex; width: 1200px; height: 100px; margin: auto;}
-
-.category_1{background-color: blue; width: 100px; height: 60px; margin-top: 20px; line-height: calc(100px - 50px); text-align: center;}
-.category_2{background-color: coral; width: 200px; margin-left: 800px; display: flex; height: 60px; margin-top: 20px; line-height: calc(100px - 50px);}
-
-.btn_1>input{padding-left: 10px;}
-.btn_2{background-color: yellow; width: 40px; height: 19px; cursor: pointer; margin-top: 18px;}
-
-.click_top{border: solid; width: 60px; margin-left: 90%; text-align: center; margin-top: 60%; background-color: skyblue; border-radius: 100%; cursor: pointer;}
-
 
 
 </style>
 
 
-
+  <div class="Logging">
     <ul class="Logging_p1" id="link_top_1">
       <li class="Logging_1">로그인</li>
       <li class="Logging_2"><a href="Join.html">회원가입</a></li>
       <li class="Logging_3">고객센터</li>
     </ul>
-  
+  </div>
 
   <!-- <style>.Logging span{border:1px solid black ;}</style> -->
 
   <h1><p style="text-align: center;">싸이트 이름</p></h1>
   <!--제공하는 서비스 박스 영역-->
-===============================================
+
   <!--search-->
   <div class="category">
     <div class="category_1">카테고리</div>
@@ -99,7 +70,7 @@ border-style: none;
   </div>
   
   
-=================================================
+
   <br><br><br>
 <!-- top으로가는 버튼 -->
 <div class="click_top">
