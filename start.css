@@ -8,7 +8,7 @@
 	.Logging{background-color: skyblue;}
 	.Logging_p1{display: flex; background-color: blue; margin-left: 80%;}
 	.Logging_p1>li{padding-left: 10px;}
-	.Logging_p1> li:not(:last-child){border-right: #000 solid;}
+	.Logging_p1> li:not(:last-child){border-right: dashed #000;}
 	
 	/* 이벤트 */
 	.Elogin_bg{
@@ -62,11 +62,18 @@
 /* ============Join2.html ======================================================================================================================================================*/
 
 
-.bt_1{ border: solid; }
-.Font_cG{color: silver;}
-.Lable_font{width: 60px; text-align: center; background-color: blue;}
 
-.Join2_main{width: 1280px; background-color: pink;margin: auto;}
+.Font_cG{color: silver;}
+.Lable_font{width: 150px; background-color: blue;}
+
+
+
+.Join2_main{width: 1280px; background-color: pink; margin: auto;}
+.Join2_main>div{display: flex;}
+.Join2_main input{border: solid gray; border-radius: 4px;}
+.Box1{border: solid gray; border-radius: 4px;}
+
+.test1{display: inline-block; background-color: blue; width: 150px;}
 
 div>span{border: solid; color: #000;
 	text-align: center; cursor: pointer; padding: 30px;}
@@ -92,13 +99,15 @@ div>span{border: solid; color: #000;
 		border-radius: 30em;
 	}
 
-.Input1{display: flex;}
+
+
+
 
 .bt_J2{display: flex; width: 1280px; height: 100px; line-height: 100px; text-align: center; margin: auto; background-color: yellow; cursor: pointer;}
 .bt_J2>div{border: solid; width: 420px;}
 /* .btn_J2>div:is(:first-child)>.bt_D{border-right: none;} */
 
-.btn_male{width: 15px; height: 15px; border-radius: 50%; cursor: pointer; }
+.btn_male{width: 20px; height: 20px; border: solid; border-radius: 50%; cursor: pointer; }
 
 
 .bt_D{background-color: red;}
