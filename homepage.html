@@ -20,11 +20,11 @@
 // jQuery
   $(document).ready(function(){
     $(".Logging_1").click(function(){
-      $(".Elogin_bg").css({"display":"block"});
+      $(".Login_bg").css({"display":"block"});
     })
 
-    $(".LoginpupX").click(function(){
-      $(".Elogin_bg").css({"display" : "none"});
+    $(".Login_out").click(function(){
+      $(".Login_bg").css({"display" : "none"});
     })
   })
     
@@ -55,8 +55,8 @@
     <div class="category_1">카테고리</div>
 
     <div class="category_2">
-      <form class="btn_1" action="">
-        <input id="serach" type="search" placeholder="검색어를 입력해주세요">
+      <form  action="">
+        <input class="btn_1" id="serach" type="search" placeholder="검색어를 입력해주세요">
       </form>
 
       <button class="btn_2"></button>
@@ -73,17 +73,26 @@
 
 
   <!--로그인창-->
-  <div class="Elogin_bg">
-    <div class="Elogin">
-      <span class="Id">아이디<input type="text"></span><span class="LoginpupX">X</span> <br>
-      <div class="Pw">비밀번호<input type="text"></div>
-      <button type="submit">로그인</button>
-  
+  <div class="Login_bg">
+    
+    <div class="Login">
+      <div class="Login_title">싸이트 이름</div>
+      <div class="Login_Id">
+        <lable>아이디</lable>
+        <input class="Login_Input1" type="text"></div>
+      <div class="Login_pw">
+        <lable>비밀번호</lable>
+        <input class="Login_Input2" type="text"></div>
+      <button class="Login_submit" type="submit">sign in</button>
+      <div class="Login_out">X</div>
     </div>
   </div>
 
 
 
+<div class="J_footer">
+  d
+</div>
 
 </body>
 </html>
