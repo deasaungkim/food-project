@@ -4,11 +4,11 @@
 	list-style: none;
 	border-style: none;
 	}
-	
-	.Logging{background-color: skyblue;}
-	.Logging_p1{display: flex; background-color: blue; margin-left: 80%;}
-	.Logging_p1>li{padding-left: 10px;}
-	.Logging_p1> li:not(:last-child){border-right: dashed #000;}
+	.header{}
+	.header_user{background-color: skyblue; text-align: right; display: block;        line-height: ;}
+	.header_user-area{display: flex; margin-left: 76%; background-color: blue;}
+	.user-area>li{padding-left: 10px;}
+	.user-area>li:not(:last-child){padding-right: 10px; border-right: solid #000;}
 	
 	/* 이벤트 */
 .Login_bg{
@@ -47,10 +47,10 @@
 
 .Agree_img{text-align: center; background-color: green;}
 
-.Agree_text{background-color: skyblue; text-align: center;}
+.Agree_text{background-color: skyblue;}
 
 .Jmain_text{background-color: orange; width: 1280px; margin: auto; font-size: 20px;}
-.Jmain_ma1>input{background-color: green;}
+
 .Jmain_ma1{margin-bottom: 10px;}
 .Jmain_bo1{border-bottom: solid;}
 
@@ -80,6 +80,7 @@
 .Box1{border: solid gray; border-radius: 4px;}
 
 .test1{display: inline-block; background-color: blue; width: 150px;}
+
 
 div>span{border: solid; color: #000;
 	text-align: center; cursor: pointer; padding: 30px;}
