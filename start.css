@@ -9,28 +9,30 @@
 	.header_user-area{display: flex; margin-left: 76%; background-color: blue;}
 	.user-area>li{padding-left: 10px;}
 	.user-area>li:not(:last-child){padding-right: 10px; border-right: solid #000;}
-	
-	/* 이벤트 */
-.Login_bg{
-		display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7);
-	}
-	.Login{
-		position: absolute; left: calc(50% - 200px); top: calc(50% - 150px); width: 400px; height: 300px; background-color: #fff; border-top: 30px solid orange;
-	}
-	.Login_title{height: 20%; text-align: center; background-color: blue;}
 
-	.Login_Id{height: 24%; line-height: 70px; background-color: green;}
-	.Login_pw{height: 24%; line-height: 70px; background-color: yellow;}
-	.Login Input{border: solid grey; border-radius: 4px;}
-	.Login_Input1{margin-left: 15px;}
-	.Login_out{width: 18px;text-align: center; position: absolute; left: 95%; bottom: 102%; background-color: chocolate;}
+	.header_inner{background-color: green; display: flex; width: 1200px; height: 100px; margin: auto;}
+	.header_inner-1{background-color: blue; width: 100px; height: 60px; margin-top: 20px; line-height: calc(100px - 50px); text-align: center;}
+	.header_inner-2{background-color: coral; width: 200px; margin-left: 800px; display: flex; height: 60px; margin-top: 20px; line-height: calc(100px - 50px);}
+	
+	.header_inner-btn1{border: solid gray; border-radius: 4px;}
+	.header_inner-btn1>input{padding-left: 10px;}
+	.header_inner-btn2{background-color: yellow; width: 40px; height: 19px; cursor: pointer; margin-top: 18px;}
+
+	/* 이벤트 */
+.LoginModal-bg{
+		display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7);}
+	.LoginModal{
+		position: absolute; left: calc(50% - 200px); top: calc(50% - 150px); width: 400px; height: 300px; background-color: #fff; border-top: 30px solid orange;}
+	.LoginModal_title{height: 20%; text-align: center; background-color: blue;}
+
+	.LoginMdal_Input-area{display: flex; height: 24%; line-height: 70px; background-color: green;}
+	
+	.LoginModal_Input-area>input{border: solid grey; border-radius: 4px;}
+
+	.LoginModal_out{width: 18px;text-align: center; position: absolute; left: 95%; bottom: 102%; background-color: chocolate;}
 	.Login lable{margin-left: 50px;}
 	.Login_submit{width: 100%; height: 10%; background-color: chartreuse;}
 
-	.category{background-color: green; display: flex; width: 1200px; height: 100px; margin: auto;}
-	
-	.category_1{background-color: blue; width: 100px; height: 60px; margin-top: 20px; line-height: calc(100px - 50px); text-align: center;}
-	.category_2{background-color: coral; width: 200px; margin-left: 800px; display: flex; height: 60px; margin-top: 20px; line-height: calc(100px - 50px);}
 	
 	.btn_1{border: solid gray; border-radius: 4px;}
 	.btn_1>input{padding-left: 10px;}
