@@ -45,20 +45,19 @@
 
 /* Join.html */
 
-.Join_1{background-color: blue; margin: auto; text-align: center;}
-
+.AGpage--title{background-color: blue; margin: auto; text-align: center;}
 .Agree_img{text-align: center; background-color: green;}
-
 .Agree_text{background-color: skyblue;}
+.AGBox{background-color: orange; width: 800px; margin: auto; font-size: 20px;}
+.AGBox>ul>li{ margin-bottom: 20px;}
+.AGBox_list{background-color: green;}
+.AGBox_list>div{ height: 40px; border-bottom: solid;}
+.AGBox_list>div:is(:first-child){border-top: solid;}
 
-.Jmain_text{background-color: orange; width: 1280px; margin: auto; font-size: 20px;}
 
-.Jmain_ma1{margin-bottom: 10px;}
 .Jmain_bo1{border-bottom: solid;}
-
 .J_btn1{display: flex; margin :auto; width: 1280px;}
 .J_btn1>li{width: 640px; height: 100px;  line-height: 100px; text-align: center; cursor: pointer; border: solid;}
-
 
 .J_btn1>li:is(:first-child){background-color:#fff; color:#000;}
 .J_btn1>li:not(:last-child){border-right: none;}

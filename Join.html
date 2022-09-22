@@ -13,30 +13,39 @@
   
 
   <br><br>
-<div class="Join_1">
-  <h1>회원가입</h1></div><br><br>
+<div class="AGpage--title">
+  <h1>회원가입</h1></div>
 
 <div class="Agree_img">
   <img src="./image/Agree.png"></div><br><br>
-  
-  <h1 class="Agree_text">
-    약관동의
-  </h1>
 
   <br>
-  <div class="Jmain_text">
-    <div>
-        <li class="Jmain_ma1">&nbsp;-&nbsp;필수 약관에 동의하셔야 xxx 회원가입이 가능합니다.<br></li>
-        <li class="Jmain_ma1">&nbsp;-&nbsp;선택 약관에 동의하지 않으셔도 회원가입이 가능합니다.<br></li></div>
-    <form class="Jmain_ma1" action="">
-      <input class="Jmain_ma1" type="checkbox" id="ag_all">전체 약관동의<br>
-      <input class="Jmain_ma1"type="checkbox" id="ag_sv">회원 서비스 이용약(필수)<br>
-      <input class="Jmain_ma1"type="checkbox" id="ag_p">개인정보 수집 및 이용동의(필수)<br>
-      <input type="checkbox" id="ag_mk">마케팅 수신 동의(선택)<br></form>
-    <div>
-      <li class="Jmain_ma1">&nbsp;-&nbsp;만 14세 미만 아동은 회원가입이 제한됩니다.<br></li>
-      &nbsp;&nbsp;&nbsp;본인은 만 14세 이상으로 개인정보 및 약관 동의 내용을 확인 하였으며,내용에 동의합니다.<br></div>
-  </div><br><br>
+<form>
+  <fieldset class="AGBox">
+    <legend class="Agree_text" >약관동의</legend>
+    <ul>
+        <li class="">&nbsp;-&nbsp;필수 약관에 동의하셔야 xxx 회원가입이 가능합니다.<br></li>
+        <li class="">&nbsp;-&nbsp;선택 약관에 동의하지 않으셔도 회원가입이 가능합니다.<br></li></ul>
+    <div class="AGBox_list" action="">
+      <div>
+        <input type="checkbox" id="allck">
+        <lable for="allck">전체 약관동의</lable></div>
+      <div>  
+        <input type="checkbox" id="ag_sv">
+        <lable>회원 서비스 이용약(필수)</lable></div>
+      <div>  
+        <input class=""type="checkbox" id="ag_p">
+        <lable>개인정보 수집 및 이용동의(필수)</lable></div>
+      <div>
+        <input type="checkbox" id="ag_mk">
+        <lable>마케팅 수신 동의(선택)</lable></div></div>
+    <ul>
+      <li class="">만 14세 미만 아동은 회원가입이 제한됩니다.</li>
+      본인은 만 14세 이상으로 개인정보 및 약관 동의 내용을 확인 하였으며,내용에 동의합니다.</ul>
+  </fieldset><br><br>
+</form>
+<!-- 약관동의를 리스트로 분리하고 각리스트에 border로 선 그어주고
+전체선택 이벤트추가,개인정보 보호법 보기란추가 -->
 
 <div class="J_btn1">
   <li>취소</li>
