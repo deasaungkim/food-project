@@ -45,25 +45,27 @@
 
 /* Join.html */
 
-.AGpage--title{background-color: blue; margin: auto; text-align: center;}
+.AGpage--title{width: 850px; background-color: blue; margin: auto; text-align: center;}
 .Agree_img{text-align: center; background-color: green;}
 .Agree_text{background-color: skyblue;}
-.AGBox{background-color: orange; width: 800px; margin: auto; font-size: 20px;}
+.AGBox{background-color: orange; width: 850px; margin: auto; font-size: 20px;}
+.AGBox_notice1{padding-left: 5px;}
+.AGBox_notice2{padding-left: 28px;}
 .AGBox>ul>li{ margin-bottom: 20px;}
-.AGBox_list{background-color: green;}
-.AGBox_list>div{ height: 40px; border-bottom: solid;}
+.AGBox_list{ background-color: green;}
+.AGBox_list>div{ height: 40px;line-height: 40px;  border-bottom: solid;}
 .AGBox_list>div:is(:first-child){border-top: solid;}
 
 
 .Jmain_bo1{border-bottom: solid;}
-.J_btn1{display: flex; margin :auto; width: 1280px;}
-.J_btn1>li{width: 640px; height: 100px;  line-height: 100px; text-align: center; cursor: pointer; border: solid;}
+.AGBox_btn{display: flex; margin :auto; width: 850px;}
+.AGBox_btn>li{width: 640px; height: 100px;  line-height: 100px; text-align: center; cursor: pointer; border: solid;}
 
-.J_btn1>li:is(:first-child){background-color:#fff; color:#000;}
-.J_btn1>li:not(:last-child){border-right: none;}
-.J_btn1>li:is(:last-child){background-color:yellow; color: #000;}
+.AGBox_btn>li:is(:first-child){background-color:#fff; color:#000;}
+.AGBox_btn>li:not(:last-child){border-right: none;}
+.AGBox_btn>li:is(:last-child){background-color:yellow; color: #000;}
 
-.J_footer{width: 100%; height: 100px; background-color: #000; margin-top: 100%;}
+.J_footer{width: 100%; height: 50%; background-color: #000;}
 
 
 /* ============Join2.html ======================================================================================================================================================*/

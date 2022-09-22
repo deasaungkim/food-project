@@ -17,16 +17,15 @@
   <h1>회원가입</h1></div>
 
 <div class="Agree_img">
-  <img src="./image/Agree.png"></div><br><br>
+  <img style="width: 850px;" src="./image/Agree.png"></div><br><br>
 
   <br>
 <form>
   <fieldset class="AGBox">
-    <legend class="Agree_text" >약관동의</legend>
-    <ul>
-        <li class="">&nbsp;-&nbsp;필수 약관에 동의하셔야 xxx 회원가입이 가능합니다.<br></li>
-        <li class="">&nbsp;-&nbsp;선택 약관에 동의하지 않으셔도 회원가입이 가능합니다.<br></li></ul>
-    <div class="AGBox_list" action="">
+    <ul class="AGBox_notice1">
+        <li>-&nbsp;&nbsp;필수 약관에 동의하셔야 xxx 회원가입이 가능합니다.</li>
+        <li>-&nbsp;&nbsp;선택 약관에 동의하지 않으셔도 회원가입이 가능합니다.</li></ul>
+    <div class="AGBox_list">
       <div>
         <input type="checkbox" id="allck">
         <lable for="allck">전체 약관동의</lable></div>
@@ -39,17 +38,16 @@
       <div>
         <input type="checkbox" id="ag_mk">
         <lable>마케팅 수신 동의(선택)</lable></div></div>
-    <ul>
-      <li class="">만 14세 미만 아동은 회원가입이 제한됩니다.</li>
-      본인은 만 14세 이상으로 개인정보 및 약관 동의 내용을 확인 하였으며,내용에 동의합니다.</ul>
-  </fieldset><br><br>
+      <ul class="AGBox_notice2">
+        <li>만 14세 미만 아동은 회원가입이 제한됩니다.</li>
+        <li>본인은 만 14세 이상으로 개인정보 및 약관 동의 내용을 확인 하였으며,내용에 동의합니다.</li></ul>
+      <div class="AGBox_btn">
+        <li>취소</li>
+        <li><a href="./join2.html">동의</a></li></div>
+      </fieldset>
 </form>
 <!-- 약관동의를 리스트로 분리하고 각리스트에 border로 선 그어주고
 전체선택 이벤트추가,개인정보 보호법 보기란추가 -->
-
-<div class="J_btn1">
-  <li>취소</li>
-  <li><a href="./join2.html">동의</a></li></div>
 
 <div class="J_footer">
   d
