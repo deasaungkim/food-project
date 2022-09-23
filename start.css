@@ -38,16 +38,17 @@
 	.btn_1>input{padding-left: 10px;}
 	.btn_2{background-color: yellow; width: 40px; height: 19px; cursor: pointer; margin-top: 18px;}
 	
-	.click_top{border: solid; width: 60px; margin-left: 90%; text-align: center; margin-top: 60%; background-color: skyblue; border-radius: 100%; cursor: pointer;}
+	.click_top{border: solid; width: 60px; margin-left: 90%; text-align: center; margin-top: 20%; background-color: skyblue; border-radius: 100%; cursor: pointer;}
 	
+	.footer{width: 100%; height: 50em; background-color: #000;}
 
 
 
 /* Join.html */
 
 .AGpage--title{width: 850px; background-color: blue; margin: auto; text-align: center;}
-.Agree_img{text-align: center; background-color: green;}
-.Agree_text{background-color: skyblue;}
+.Agree_img{ margin: auto; text-align: center; border: solid; background-color: green;}
+
 .AGBox{background-color: orange; width: 850px; margin: auto; font-size: 20px;}
 .AGBox_notice1{padding-left: 5px;}
 .AGBox_notice2{padding-left: 28px;}
@@ -65,7 +66,7 @@
 .AGBox_btn>li:not(:last-child){border-right: none;}
 .AGBox_btn>li:is(:last-child){background-color:yellow; color: #000;}
 
-.J_footer{width: 100%; height: 50%; background-color: #000;}
+
 
 
 /* ============Join2.html ======================================================================================================================================================*/
@@ -75,9 +76,9 @@
 .Font_cG{color: silver;}
 .Lable_font{width: 150px; background-color: blue;}
 
+.memberBox{width: 850px; margin: auto; font-size: 20px;}
 
-
-.Join2_main{width: 1280px; background-color: pink; margin: auto;}
+.Join2_main{background-color: pink; margin: auto;}
 .Join2_main>div{display: flex;}
 .Join2_main input{border: solid gray; border-radius: 4px;}
 .Box1{border: solid gray; border-radius: 4px;}
@@ -89,40 +90,15 @@ div>span{border: solid; color: #000;
 	text-align: center; cursor: pointer; padding: 30px;}
 	div>span:first-child{padding-right: 50px; padding-left: 50px;}
 	div>span:last-child{background-color: yellow;}
-		/* .Cancel{
-		width: 200px; height: 100px; border: solid;
-		background-color:#ffff; color: #000;
-		text-align: center; line-height: 100px;
-		cursor: pointer;
-	}
-	.Join{
-		width: 200px; height: 100px; border: solid;
-		background-color:yellow; color: #000;
-		text-align: center; line-height: 100px;
-		cursor: pointer;
-	} */
-	.Check{
-		border: solid; background-color: chartreuse; color: #000;
-		width: 130px; text-align: center; cursor: pointer;
-	}
-	button{
-		border-radius: 30em;
-	}
 
-
-
-
-
-.bt_J2{display: flex; width: 1280px; height: 100px; line-height: 100px; text-align: center; margin: auto; background-color: yellow; cursor: pointer;}
-.bt_J2>div{border: solid; width: 420px;}
-/* .btn_J2>div:is(:first-child)>.bt_D{border-right: none;} */
+.mamberBox_contents{display: flex; height: 100px; line-height: 100px; text-align: center; margin: auto; padding: 0; background-color: yellow; cursor: pointer;}
+.mamberBox_contents>li{border: solid; border-bottom: none; width: 280px;}
+.mamberBox_contents>li:not(:last-child){border-right: none;}
 
 .btn_male{width: 20px; height: 20px; border: solid; border-radius: 50%; cursor: pointer; }
 
 
-.bt_D{background-color: red;}
-.bt_B{background-color:blue;}
-.bt_H{background-color: green;}
+
 
 
 
