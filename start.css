@@ -4,15 +4,15 @@
 	list-style: none;
 	border-style: none;
 	}
-	.header{}
+	.header{width: 850px; margin: auto;}
 	.header_user{background-color: skyblue; text-align: right; display: block;        line-height: ;}
 	.header_user-area{display: flex; margin-left: 76%; background-color: blue;}
 	.user-area>li{padding-left: 10px;}
 	.user-area>li:not(:last-child){padding-right: 10px; border-right: solid #000;}
 
-	.header_inner{background-color: green; display: flex; width: 1200px; height: 100px; margin: auto;}
-	.header_inner-1{background-color: blue; width: 100px; height: 60px; margin-top: 20px; line-height: calc(100px - 50px); text-align: center;}
-	.header_inner-2{background-color: coral; width: 200px; margin-left: 800px; display: flex; height: 60px; margin-top: 20px; line-height: calc(100px - 50px);}
+	.header_inner{background-color: green; display: flex; height: 100px; margin: auto;}
+	.header_inner-1{background-color: blue; width: 100px; height: 60px; margin-top: 20px; line-height: calc(100px - 50px);}
+	.header_inner-2{background-color: coral; width: 200px; margin-left: 550px; display: flex; height: 60px; margin-top: 20px; line-height: calc(100px - 50px);}
 	
 	.header_inner-btn1{border: solid gray; border-radius: 4px;}
 	.header_inner-btn1>input{padding-left: 10px;}
