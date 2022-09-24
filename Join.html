@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,51 +8,63 @@
   <title>Document</title>
 
   <link rel="stylesheet" type="text/css" href="/start.css">
-
+  <script type="text/javascript" src="./hell01.js"></script>
 </head>
-<div>
-  
 
-  <br><br>
-<div class="AGpage--title">
-  <h1>회원가입</h1></div>
+<body>
 
-<div class="Agree_img">
-  <img style="width: 850px" src="./image/Agree.png"></div><br><br>
+  <a href="./homepage.html" class="homepageLink">싸이트 이름</a>
+  <div>
+    <div class="AGpage--title">
+      <h1>회원가입</h1>
+    </div>
 
-  <br>
-<form>
-  <fieldset class="AGBox">
-    <ul class="AGBox_notice1">
-        <li>-&nbsp;&nbsp;필수 약관에 동의하셔야 xxx 회원가입이 가능합니다.</li>
-        <li>-&nbsp;&nbsp;선택 약관에 동의하지 않으셔도 회원가입이 가능합니다.</li></ul>
-    <div class="AGBox_list">
-      <div>
-        <input type="checkbox" id="allck">
-        <lable for="allck">전체 약관동의</lable></div>
-      <div>  
-        <input type="checkbox" id="ag_sv">
-        <lable>회원 서비스 이용약(필수)</lable></div>
-      <div>  
-        <input class=""type="checkbox" id="ag_p">
-        <lable>개인정보 수집 및 이용동의(필수)</lable></div>
-      <div>
-        <input type="checkbox" id="ag_mk">
-        <lable>마케팅 수신 동의(선택)</lable></div></div>
-      <ul class="AGBox_notice2">
-        <li>만 14세 미만 아동은 회원가입이 제한됩니다.</li>
-        <li>본인은 만 14세 이상으로 개인정보 및 약관 동의 내용을 확인 하였으며,내용에 동의합니다.</li></ul>
-      <div class="AGBox_btn">
-        <li>취소</li>
-        <li><a href="./join2.html">동의</a></li></div>
+    <div class="Agree_img">
+      <img style="width: 850px" src="./image/Agree.png">
+    </div><br><br>
+
+    <br>
+    <form>
+      <fieldset class="AGBox">
+        <ul class="AGBox_notice1">
+          <li>-&nbsp;&nbsp;필수 약관에 동의하셔야 xxx 회원가입이 가능합니다.</li>
+          <li>-&nbsp;&nbsp;선택 약관에 동의하지 않으셔도 회원가입이 가능합니다.</li>
+        </ul>
+        <div class="AGBox_list">
+          <div>
+            <input type="checkbox" name="test" onclick='selectAll(this)'>
+            <lable for="allck">전체 약관동의</lable>
+          </div>
+          <div>
+            <input type="checkbox" name="test">
+            <lable>회원 서비스 이용약(필수)</lable>
+          </div>
+          <div>
+            <input class="" type="checkbox" name="test">
+            <lable>개인정보 수집 및 이용동의(필수)</lable>
+          </div>
+          <div>
+            <input type="checkbox" name="test">
+            <lable>마케팅 수신 동의(선택)</lable>
+          </div>
+        </div>
+        <ul class="AGBox_notice2">
+          <li>만 14세 미만 아동은 회원가입이 제한됩니다.</li>
+          <li>본인은 만 14세 이상으로 개인정보 및 약관 동의 내용을 확인 하였으며,내용에 동의합니다.</li>
+        </ul>
+        <div class="AGBox_btn">
+          <li>취소</li>
+          <li><a href="./join2.html">동의</a></li>
+        </div>
       </fieldset>
-</form>
-<!-- 약관동의를 리스트로 분리하고 각리스트에 border로 선 그어주고
+    </form>
+    <!-- 약관동의를 리스트로 분리하고 각리스트에 border로 선 그어주고
 전체선택 이벤트추가,개인정보 보호법 보기란추가 -->
 
-<div class="footer">
-  d
-</div>
-  
+    <div class="footer">
+      d
+    </div>
+
 </body>
+
 </html>
