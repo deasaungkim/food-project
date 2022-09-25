@@ -169,10 +169,10 @@
 
 .BMIcalc {
 	margin-left: 202.5px;
-	width: 280px;
+	width: 300px;
 	height: 100px;
 	line-height: 30px;
-	background-color: yellow;
+	background-color: rgb(189, 216, 205);
 }
 
 .BMIcalc input {
@@ -183,6 +183,21 @@
 .BMIcalc_la {
 	display: inline-block;
 	width: 50px;
+}
+
+.BMIcalc>button {
+	width: 146px;
+}
+
+.BMIcalc_box {
+	display: flex;
+	justify-content: flex-end;
+	width: 100px;
+	margin-left: 172px;
+}
+
+.BMIcalc_Ipwidth {
+	width: inherit;
 }
 
 /* .BMIcalc>label {

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./hell01.js"></script>
   <title>Document</title>
   <!--<link rel="stylesheet" href="start.css">-->
   <!--로그인전-->
@@ -27,69 +28,76 @@
 
 </head>
 
-<div class="header">
-  <div class="header_user">
-    <ul class="header_user-area">
-      <li class="Logging_1">로그인</li>
-      <li><a href="Join.html">회원가입</a></li>
-      <li>고객센터</li>
-    </ul>
-  </div>
-  <!-- 회원가입의 글자색있는 기능 없애기 -->
-  <h1>
-    <p style="text-align: center;">싸이트 이름</p>
-  </h1>
-  <!--search-->
-  <div class="header_inner">
-    <div class="header_inner-1">카테고리</div>
-    <div class="header_inner-2">
-      <form>
-        <input class="header_inner-btn1" id="serach" type="search" placeholder="검색어를 입력해주세요">
-      </form>
-      <button class="header_inner-btn2"></button>
+<body>
+  <div class="header">
+    <div class="header_user">
+      <ul class="header_user-area">
+        <li class="Logging_1">로그인</li>
+        <li><a href="Join.html">회원가입</a></li>
+        <li>고객센터</li>
+      </ul>
+    </div>
+    <!-- 회원가입의 글자색있는 기능 없애기 -->
+    <h1>
+      <p style="text-align: center;">싸이트 이름</p>
+    </h1>
+    <!--search-->
+    <div class="header_inner">
+      <div class="header_inner-1">카테고리</div>
+      <div class="header_inner-2">
+        <form>
+          <input class="header_inner-btn1" id="serach" type="search" placeholder="검색어를 입력해주세요">
+        </form>
+        <button class="header_inner-btn2"></button>
+      </div>
     </div>
   </div>
-</div>
 
-<form class="BMIcalc">
-  <div>BMI 측정기</div>
-  <div>
-    <label class="BMIcalc_la" for="">키</label>
-    <input placeholder="키를 입력하세요." type="text">
-    <label for="">(cm)</label>
+  <form class="BMIcalc">
+    <div style="color: orange;">BMI 측정기</div>
+    <div>
+      <label class="BMIcalc_la" for="">키</label>
+      <input id="InputHeight" placeholder="키를 입력하세요." type="text">
+      <label for="">(cm)</label>
+    </div>
+    <div>
+      <label class="BMIcalc_la" for="">몸무게</label>
+      <input id="InputWeight" placeholder="몸무게를 입력하세요." type="text">
+      <label for="">(kg)</label>
+    </div>
+    <button id="bmibt" type="submit">계산하기</button>
+    <button type="submit">다시하기</button>
+    <div class="BMIcalc_box">
+      <label style="white-space: nowrap;" for="">나의 체질량지수(BMI) :</label>
+      <input id="BMIResult" class="BMIcalc_Ipwidth" type="text">
+    </div>
+  </form>
+  <!-- top으로가는 버튼 -->
+  <div class="click_top">
+    <a href="#link_top_1">맨위로</a>
   </div>
-  <div>
-    <label class="BMIcalc_la" for="">몸무게</label>
-    <input placeholder="몸무게를 입력하세요." type="text">
-    <label for="">(kg)</label>
+
+  <div class="footer">
+    d
   </div>
-</form>
-<!-- top으로가는 버튼 -->
-<div class="click_top">
-  <a href="#link_top_1">맨위로</a>
-</div>
-
-<div class="footer">
-  d
-</div>
 
 
 
-<!--로그인창-->
-<div class="LoginModal-bg">
-  <div class="LoginModal">
-    <div class="LoginModal_title">싸이트 이름</div>
-    <form class="LoginModal_Input-area" action="">
-      <div>
-        <input type="text" placeholder="아이디">
-        <input type="text" placeholder="비밀번호">
-      </div>
-      <button class="Login_submit" type="submit">sign in</button>
-    </form>
-    <div class="LoginModal_out">X</div>
+  <!--로그인창-->
+  <div class="LoginModal-bg">
+    <div class="LoginModal">
+      <div class="LoginModal_title">싸이트 이름</div>
+      <form class="LoginModal_Input-area" action="">
+        <div>
+          <input type="text" placeholder="아이디">
+          <input type="text" placeholder="비밀번호">
+        </div>
+        <button class="Login_submit" type="submit">sign in</button>
+      </form>
+      <div class="LoginModal_out">X</div>
+    </div>
   </div>
-</div>
-<!-- 아이디,비밀번호,sign in을 form테그안에 넣고
+  <!-- 아이디,비밀번호,sign in을 form테그안에 넣고
 아이디와 비밀번호는 같은 div테그로 묵기
 ,input테그로 묵어서 placeholder로 아이디/비밀번호 -->
 
