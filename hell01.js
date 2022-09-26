@@ -1,20 +1,20 @@
 
 
 // checkboxAll
-// function selectAll(dddd) {
-// 	document.getElementsByName('test').forEach((checkbox) => {
-// 		checkbox.checked = selectAll.checked;
-
-// 	})
-// }; 
-// 위의 코드와 같다
 function selectAll(selectAll) {
-	const checkboxes = document.getElementsName('test');
-	checkboxes.forEach((checkbox) => {
+	document.getElementsByName('test').forEach((checkbox) => {
 		checkbox.checked = selectAll.checked;
-		console.log("dd")
+
 	})
-}
+};
+// 위의 코드와 같다
+// function selectAll(selectAll) {
+// 	const checkboxes = document.getElementsByName('test');
+// 	checkboxes.forEach((checkbox) => {
+// 		checkbox.checked = selectAll.checked;
+// 		console.log("dd")
+// 	})
+// }
 
 // BMI
 /*키의값 const height= document.getElementById('InputHeight').value */
