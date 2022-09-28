@@ -191,13 +191,18 @@
 
 .BMIcalc_box {
 	display: flex;
-	justify-content: flex-end;
-	width: 100px;
-	margin-left: 172px;
+	/* justify-content: flex-end; */
+	width: 300px;
 }
 
 .BMIcalc_Ipwidth {
-	width: inherit;
+	/* width: inherit; */
+	border: solid gray;
+	height: 20px;
+	width: 150px;
+	text-align: center;
+	line-height: 20px;
+
 }
 
 /* .BMIcalc>label {
