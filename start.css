@@ -3,6 +3,8 @@
 	text-decoration: none;
 	list-style: none;
 	border-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .header {
@@ -14,23 +16,26 @@
 	background-color: skyblue;
 	text-align: right;
 	display: block;
-	line-height: ;
+
 }
 
 .header_user-area {
 	display: flex;
-	margin-left: 76%;
+	margin-left: auto;
 	background-color: blue;
+	width: 250px;
 }
 
-.user-area>li {
-	padding-left: 10px;
+.header_user-area>li:not(:last-child) {
+	border-right: solid;
 }
 
-.user-area>li:not(:last-child) {
+.header_user-area>li {
 	padding-right: 10px;
-	border-right: solid #000;
+	padding-left: 5px;
+	width: inherit;
 }
+
 
 .header_inner {
 	background-color: green;
