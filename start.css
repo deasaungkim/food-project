@@ -167,8 +167,13 @@
 	background-color: #000;
 }
 
+.HomeContents {
+	width: 850px;
+	margin: auto;
+}
+
 .BMIcalc {
-	margin-left: 202.5px;
+
 	width: 300px;
 	height: 100px;
 	line-height: 30px;
