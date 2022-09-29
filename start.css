@@ -334,10 +334,17 @@
 .Join2_main {
 	background-color: pink;
 	margin: auto;
+
+}
+
+.Join2_main p {
+	margin-top: -60px;
+	padding-bottom: 20px;
 }
 
 .Join2_main>div {
 	display: flex;
+	margin-bottom: 60px;
 }
 
 .Join2_main input {
