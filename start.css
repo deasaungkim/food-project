@@ -316,9 +316,6 @@
 
 
 
-.Font_cG {
-	color: silver;
-}
 
 .Lable_font {
 	width: 150px;
@@ -352,6 +349,18 @@
 	border-radius: 4px;
 }
 
+.Join2_main>div:nth-of-type(8n)>input {
+	width: 155px;
+}
+
+.Join2_main>div:nth-of-type(5n)>input {
+	width: 184px;
+}
+
+.Join2_main>div>input {
+	width: 500px;
+}
+
 .Box1 {
 	border: solid gray;
 	border-radius: 4px;
@@ -381,7 +390,7 @@ div>span:last-child {
 	background-color: yellow;
 }
 
-.mamberBox_contents {
+.memberBox_contents {
 	display: flex;
 	height: 100px;
 	line-height: 100px;
@@ -390,16 +399,23 @@ div>span:last-child {
 	padding: 0;
 	background-color: yellow;
 	cursor: pointer;
+
 }
 
-.mamberBox_contents>li {
+.memberBox_contents>li {
 	border: solid;
 	border-bottom: none;
-	width: 280px;
+	width: inherit;
 }
 
-.mamberBox_contents>li:not(:last-child) {
+.memberBox_contents>li:not(:last-child) {
 	border-right: none;
+}
+
+.Check {
+	border: solid;
+	background-color: aqua;
+	cursor: pointer;
 }
 
 .btn_male {
