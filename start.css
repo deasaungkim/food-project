@@ -229,7 +229,7 @@
 }
 
 .AGpage--title {
-	width: 850px;
+	width: 750px;
 	background-color: blue;
 	margin: auto;
 	text-align: center;
@@ -244,7 +244,7 @@
 
 .AGBox {
 	background-color: orange;
-	width: 850px;
+	width: 780px;
 	margin: auto;
 	font-size: 20px;
 }
@@ -283,11 +283,12 @@
 .AGBox_btn {
 	display: flex;
 	margin: auto;
-	width: 850px;
+	width: 780px;
+	margin-bottom: 60px;
 }
 
 .AGBox_btn>li {
-	width: 640px;
+	width: 375px;
 	height: 100px;
 	line-height: 100px;
 	text-align: center;
@@ -323,7 +324,7 @@
 }
 
 .memberBox {
-	width: 850px;
+	width: 780px;
 	margin: auto;
 	font-size: 20px;
 }
@@ -335,8 +336,8 @@
 }
 
 .Join2_main p {
-	margin-top: -60px;
-	padding-bottom: 20px;
+
+	margin-bottom: 60px;
 }
 
 .Join2_main>div {
@@ -359,6 +360,7 @@
 
 .Join2_main>div>input {
 	width: 500px;
+	padding-left: 10px;
 }
 
 .Box1 {
@@ -396,16 +398,15 @@ div>span:last-child {
 	line-height: 100px;
 	text-align: center;
 	margin: auto;
-	padding: 0;
 	background-color: yellow;
 	cursor: pointer;
+	margin-bottom: 60px;
 
 }
 
 .memberBox_contents>li {
 	border: solid;
-	border-bottom: none;
-	width: inherit;
+	width: 260px;
 }
 
 .memberBox_contents>li:not(:last-child) {
@@ -419,9 +420,10 @@ div>span:last-child {
 }
 
 .btn_male {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	border: solid;
 	border-radius: 50%;
 	cursor: pointer;
+	margin-right: 10px;
 }
