@@ -411,7 +411,7 @@ div>span:last-child {
 
 .memberBox_contents>li {
 	border: solid;
-	width: 260px;
+	width: 280px;
 }
 
 .memberBox_contents>li:not(:last-child) {
@@ -422,6 +422,7 @@ div>span:last-child {
 	border: solid;
 	background-color: aqua;
 	cursor: pointer;
+	width: 90px;
 }
 
 .btn_male {
