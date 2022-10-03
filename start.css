@@ -65,6 +65,7 @@
 .header_inner-btn1 {
 	border: solid gray;
 	border-radius: 4px;
+	padding-left: 10px;
 }
 
 .header_inner-btn1>input {
@@ -245,7 +246,7 @@
 
 .AGBox {
 	background-color: orange;
-	width: 780px;
+	width: 840px;
 	margin: auto;
 	font-size: 20px;
 }
@@ -259,7 +260,7 @@
 }
 
 .AGBox>ul>li {
-	margin-bottom: 20px;
+	margin: 20px 0 20px;
 }
 
 .AGBox_list {
@@ -283,13 +284,11 @@
 
 .AGBox_btn {
 	display: flex;
-	margin: auto;
-	width: 780px;
 	margin-bottom: 60px;
 }
 
 .AGBox_btn>li {
-	width: 375px;
+	width: 420px;
 	height: 100px;
 	line-height: 100px;
 	text-align: center;
