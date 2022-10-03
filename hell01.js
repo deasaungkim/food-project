@@ -62,8 +62,4 @@ function BMIFunc() {
 // }; return result.innerText = bmiclass;
 // 왜 input을 div로 바꾸니까 작동되지?
 
-window.onload = () => {
-	var CC = document.getElementByClassName('memberBox').style.width;
-	var DD = document.getElementByClassName('memberBox_contents').children;
-	DD.style.width = (CC % 3);
-}
+
