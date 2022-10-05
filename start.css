@@ -216,6 +216,19 @@
 
 }
 
+#bmibt:hover {
+	background-color: blue;
+	color: #fff;
+}
+
+#bmibt2:hover {
+	background-color: blue;
+	color: #fff;
+}
+
+
+
+
 /* .BMIcalc>label {
 	width: 50px;
 } */
