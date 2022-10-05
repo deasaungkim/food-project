@@ -216,6 +216,15 @@
 
 }
 
+#InputHeight {
+	padding-left: 10px;
+}
+
+#InputWeight {
+	padding-left: 10px;
+}
+
+/*Hover*/
 #bmibt:hover {
 	background-color: blue;
 	color: #fff;
@@ -225,6 +234,8 @@
 	background-color: blue;
 	color: #fff;
 }
+
+#InputWeight {}
 
 
 
