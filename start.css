@@ -7,6 +7,10 @@
 	padding: 0;
 }
 
+a:visited {
+	color: #000;
+}
+
 .header {
 	width: 850px;
 	margin: auto;
@@ -329,10 +333,14 @@
 }
 
 .AGBox_btn>li:is(:last-child) {
-	background-color: yellow;
+	background-color: #fff;
 	color: #000;
 }
 
+.AGBox_btn>li:is(:last-child):hover {
+	background-color: blue;
+	color: #000;
+}
 
 
 
