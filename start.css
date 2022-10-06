@@ -256,7 +256,6 @@
 
 .AGpage--title {
 	width: 750px;
-	background-color: blue;
 	margin: auto;
 	text-align: center;
 }
@@ -269,7 +268,7 @@
 }
 
 .AGBox {
-	background-color: orange;
+	background-color: skyblue;
 	width: 840px;
 	margin: auto;
 	font-size: 20px;
@@ -288,7 +287,7 @@
 }
 
 .AGBox_list {
-	background-color: green;
+	background-color: gray;
 }
 
 .AGBox_list>div {
@@ -436,11 +435,13 @@ div>span:last-child {
 .memberBox_contents>li {
 	border: solid;
 	width: 280px;
+
 }
 
 .memberBox_contents>li:not(:last-child) {
 	border-right: none;
 }
+
 
 .Check {
 	border: solid;
