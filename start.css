@@ -239,14 +239,17 @@ a:visited {
 	color: #fff;
 }
 
-#InputWeight {}
-
-
-
-
 /* .BMIcalc>label {
 	width: 50px;
 } */
+.FoodCtr {
+	margin-top: 100px;
+	background-color: green;
+}
+
+
+
+
 
 /* Join.html */
 .homepageLink {
