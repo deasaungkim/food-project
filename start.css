@@ -247,7 +247,26 @@ a:visited {
 	background-color: green;
 }
 
+.FoodCtr label {
+	display: inline-block;
+	width: 100px;
+}
 
+.FoodCtr input {
+	padding-left: 10px;
+}
+
+.FoodCtr p {
+	display: flex;
+	width: 100px;
+	background-color: yellow;
+}
+
+.FoodCtr span {
+	width: 100px;
+	display: inline-block;
+	background-color: blue;
+}
 
 
 
