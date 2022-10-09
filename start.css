@@ -265,8 +265,12 @@ footer {
 	width: 50px;
 } */
 .FoodCtr {
-	margin-top: 10px;
-	background-color: green;
+	margin-top: 70px;
+	background-color: skyblue;
+}
+
+.FoodCtr div {
+	margin-top: 20px;
 }
 
 .FoodCtr label {
