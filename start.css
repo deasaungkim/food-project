@@ -190,6 +190,10 @@ a:visited {
 	background-color: skyblue;
 }
 
+aside {
+	position: relative;
+	bottom: 500px;
+}
 
 footer {
 	height: 100px;
