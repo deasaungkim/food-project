@@ -194,7 +194,7 @@ aside {
 	position: relative;
 	bottom: 500px;
 	background-color: yellow;
-	width: 220px;
+	width: 200px;
 }
 
 aside>h3 {
@@ -203,7 +203,7 @@ aside>h3 {
 }
 
 aside input {
-	width: 110px;
+	width: 90px;
 	margin-left: 10px;
 	padding-left: 10px
 }
