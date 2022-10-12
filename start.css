@@ -220,6 +220,8 @@ aside li {
 
 footer {
 	height: 100px;
+	width: 850px;
+	margin: auto;
 	/* position: relative;
 	transform: translateY(-100%); */
 	background-color: #000;
