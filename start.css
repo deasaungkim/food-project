@@ -13,13 +13,11 @@ body {
 	padding: 0;
 }
 
-
-
 a:visited {
 	color: #000;
 }
 
-#wrapper {
+#wrapper01 {
 	background-color: yellow;
 	height: 100%;
 	/* min-height: 100%; */
@@ -55,15 +53,14 @@ a:visited {
 	width: inherit;
 }
 
-
-.header_inner {
+.nav {
 	background-color: green;
 	display: flex;
 	height: 100px;
 	margin: auto;
 }
 
-.header_inner-1 {
+.nav-category {
 	background-color: blue;
 	width: 100px;
 	height: 60px;
@@ -71,7 +68,7 @@ a:visited {
 	line-height: calc(100px - 50px);
 }
 
-.header_inner-2 {
+.nav-search {
 	background-color: coral;
 	width: 200px;
 	margin-left: 550px;
@@ -81,17 +78,17 @@ a:visited {
 	line-height: calc(100px - 50px);
 }
 
-.header_inner-btn1 {
+.nav-search-input {
 	border: solid gray;
 	border-radius: 4px;
 	padding-left: 10px;
 }
 
-.header_inner-btn1>input {
+.nav-search-input>input {
 	padding-left: 10px;
 }
 
-.header_inner-btn2 {
+.nav-search-btn {
 	background-color: yellow;
 	width: 40px;
 	height: 19px;
@@ -99,7 +96,7 @@ a:visited {
 	margin-top: 18px;
 }
 
-/* 이벤트 */
+/*모달 이벤트 */
 .LoginModal-bg {
 	display: none;
 	position: absolute;
@@ -147,9 +144,6 @@ a:visited {
 	background-color: chocolate;
 }
 
-.Login lable {
-	margin-left: 50px;
-}
 
 .Login_submit {
 	width: 100%;
@@ -175,7 +169,7 @@ a:visited {
 	margin-top: 18px;
 }
 
-.click_top {
+#click_top {
 	margin-top: 500px;
 	margin-left: 1100px;
 	position: fixed;
@@ -245,7 +239,7 @@ footer {
 	border-radius: 4px;
 }
 
-.BMIcalc_la {
+.BMIcalc_lable {
 	display: inline-block;
 	width: 50px;
 }
@@ -260,7 +254,7 @@ footer {
 	width: 300px;
 }
 
-.BMIcalc_Ipwidth {
+.BMIcalc-input {
 	/* width: inherit; */
 	border: solid gray;
 	height: 26px;
@@ -279,12 +273,12 @@ footer {
 }
 
 /*Hover*/
-#bmibt:hover {
+#bmibtn-submit:hover {
 	background-color: blue;
 	color: #fff;
 }
 
-#bmibt2:hover {
+#bmibtn-reset:hover {
 	background-color: blue;
 	color: #fff;
 }

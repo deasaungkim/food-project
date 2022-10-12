@@ -28,12 +28,12 @@
 
 </head>
 
-<div class="click_top">
+<div id="click_top">
   <a href="#link_top_1">TOP</a>
 </div>
 
 <body>
-  <wrapper id="wrapper">
+  <wrapper id="wrapper01">
     <div class="header">
       <div class="header_user">
         <ul class="header_user-area">
@@ -42,39 +42,36 @@
           <li>고객센터</li>
         </ul>
       </div>
-      <!-- 회원가입의 글자색있는 기능 없애기 -->
-      <h1>
-        <p style="text-align: center;" id="link_top_1">싸이트 이름</p>
-      </h1>
+      <h1 style="text-align: center;">싸이트 이름</h1>
       <!--search-->
-      <div class="header_inner">
-        <div class="header_inner-1">카테고리</div>
-        <div class="header_inner-2">
+      <nav class="nav">
+        <div class="nav-category">카테고리</div>
+        <div class="nav-search">
           <form>
-            <input class="header_inner-btn1" id="serach" type="search" placeholder="검색어를 입력해주세요">
+            <input class="nav-search-input" id="serach" type="search" placeholder="검색어를 입력해주세요">
           </form>
-          <button class="header_inner-btn2">bbb</button>
+          <button class="nav-search-btn">bbb</button>
         </div>
-      </div>
+      </nav>
     </div>
     <div class="HomeContents">
       <form class="BMIcalc">
         <div style="color: orange;">BMI 측정기</div>
         <div>
-          <label class="BMIcalc_la" for="InputHeight">키</label>
+          <label class="BMIcalc_lable" for="InputHeight">키</label>
           <input id="InputHeight" placeholder="키를 입력하세요." type="text">
           <label for="">(cm)</label>
         </div>
         <div>
-          <label class="BMIcalc_la" for="InputWeight">몸무게</label>
+          <label class="BMIcalc_lable" for="InputWeight">몸무게</label>
           <input id="InputWeight" placeholder="몸무게를 입력하세요." type="text">
           <label for="">(kg)</label>
         </div>
-        <button id="bmibt">계산하기</button>
-        <button id="bmibt2" type="submit">다시하기</button>
+        <button id="bmibtn-submit">계산하기</button>
+        <button id="bmibtn-reset" type="submit">다시하기</button>
         <div class="BMIcalc_box">
           <label style="white-space: nowrap;">나의 체질량지수(BMI)</label>
-          <div id="BMIResult" class="BMIcalc_Ipwidth" type="text"></div>
+          <div id="BMIResult" class="BMIcalc-input" type="text"></div>
         </div>
       </form>
       <div class="FoodCtr">
@@ -110,7 +107,6 @@
   아이디와 비밀번호는 같은 div테그로 묵기
   ,input테그로 묵어서 placeholder로 아이디/비밀번호 -->
     </div>
-
     <div style="height: 500px; margin: auto; width: 850px;">
       aa
     </div>
