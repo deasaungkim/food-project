@@ -318,13 +318,13 @@ footer {
 	margin-bottom: 60px;
 }
 
-.AGpage--title {
+.AGpage-title {
 	width: 750px;
 	margin: auto;
 	text-align: center;
 }
 
-.Agree_img {
+.Agree-img {
 	margin: auto;
 	text-align: center;
 	border: solid;
@@ -336,6 +336,15 @@ footer {
 	width: 840px;
 	margin: auto;
 	font-size: 20px;
+}
+
+.PPP>p {
+	display: inline-block;
+}
+
+.PPP>p:nth-of-type(2n) {
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 .AGBox_notice1 {
