@@ -380,12 +380,12 @@ footer {
 	border-bottom: solid;
 }
 
-.AGBox_btn {
+.AGBox-btn {
 	display: flex;
 	margin-bottom: 60px;
 }
 
-.AGBox_btn>li {
+.AGBox-btn>li {
 	width: 420px;
 	height: 100px;
 	line-height: 100px;
@@ -394,21 +394,21 @@ footer {
 	border: solid;
 }
 
-.AGBox_btn>li:is(:first-child) {
+.AGBox-btn>li:is(:first-child) {
 	background-color: #fff;
 	color: #000;
 }
 
-.AGBox_btn>li:not(:last-child) {
+.AGBox-btn>li:not(:last-child) {
 	border-right: none;
 }
 
-.AGBox_btn>li:is(:last-child) {
+.AGBox-btn>li:is(:last-child) {
 	background-color: #fff;
 	color: #000;
 }
 
-.AGBox_btn>li:is(:last-child):hover {
+.AGBox-btn>li:is(:last-child):hover {
 	background-color: blue;
 	color: #000;
 }
@@ -499,7 +499,7 @@ div>span:last-child {
 	background-color: yellow;
 }
 
-.memberBox_contents {
+.memberBox-contents {
 	display: flex;
 	height: 100px;
 	line-height: 100px;
@@ -511,13 +511,13 @@ div>span:last-child {
 
 }
 
-.memberBox_contents>li {
+.memberBox-contents>li {
 	border: solid;
 	width: 280px;
 
 }
 
-.memberBox_contents>li:not(:last-child) {
+.memberBox-contents>li:not(:last-child) {
 	border-right: none;
 }
 
