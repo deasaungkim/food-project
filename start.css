@@ -306,6 +306,17 @@ footer {
 	padding-left: 10px;
 }
 
+.FoodCtr-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.FoodCtr button {
+	width: 250px;
+	margin-left: 10px;
+	font-size: 20px;
+}
 
 
 
