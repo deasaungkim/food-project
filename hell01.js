@@ -62,4 +62,26 @@ function BMIFunc() {
 // }; return result.innerText = bmiclass;
 // 왜 input을 div로 바꾸니까 작동되지?
 
+// .아침에 뭐 먹었어요 ?
+// 	2.짜장면1 엔터(input id 가져오기)
+// 3.클라이언트 post 요청
+// var test1 = document.getElementById(#inputid1).val() //아침에 먹은거
+// var test2 = document.getElementById(#inputid2).val() //점심에 먹은거
+// var test3 = document.getElementById(#inputid3).val() //저녁에 먹은거
+// ajax({
+// 	type: 'POST',
+// 	url: 'dailyFood',
+// 	data: { dailyFood- give : test1
+// }
+// 		success : function (response) {
+// 	alert(response['msg'])
+// }
+// 		msg = 입력완료1
+// 4.서버 post 요청 : db(daily food)에 저장
+// 	@app.route("/dailyFood", methods = ["POST"])
+// 		def dailyFood_post():
+// dailyFood_receive = request.form['test1']
+
+// db.dailyFood.inset_one({ 'morning': test1 })
+// return jsonity({ 'msg': "입력 완료" })
 
