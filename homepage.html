@@ -25,6 +25,7 @@
 
   </script>
   <link rel="stylesheet" type="text/css" href="/start.css">
+  window.open("Login-modal.html","width=100px,height=100px")
 
 </head>
 
@@ -37,7 +38,7 @@
     <div class="header">
       <div class="header_user">
         <ul class="header_user-area">
-          <li class="Logging_1">로그인</li>
+          <li class="Logging_1" onclick="function Login-modal()">로그인</li>
           <li><a href="Join.html">회원가입</a></li>
           <li>고객센터</li>
         </ul>
@@ -93,23 +94,7 @@
           </div>
         </form>
       </div>
-      <!--로그인창-->
-      <div class="LoginModal-bg">
-        <div class="LoginModal">
-          <div class="LoginModal_title">싸이트 이름</div>
-          <form class="LoginModal_Input-area" action="">
-            <div>
-              <input type="text" placeholder="아이디">
-              <input type="text" placeholder="비밀번호">
-            </div>
-            <button class="Login_submit" type="submit">sign in</button>
-          </form>
-          <div class="LoginModal_out">X</div>
-        </div>
-      </div>
-      <!-- 아이디,비밀번호,sign in을 form테그안에 넣고
-  아이디와 비밀번호는 같은 div테그로 묵기
-  ,input테그로 묵어서 placeholder로 아이디/비밀번호 -->
+
     </div>
     <div style="height: 500px; margin: auto; width: 850px;">
       aa
