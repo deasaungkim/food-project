@@ -85,3 +85,4 @@ function BMIFunc() {
 // db.dailyFood.inset_one({ 'morning': test1 })
 // return jsonity({ 'msg': "입력 완료" })
 
+
