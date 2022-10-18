@@ -86,3 +86,9 @@ function BMIFunc() {
 // return jsonity({ 'msg': "입력 완료" })
 
 
+const modal = document.getElementById("modal")
+const btnModal = document.getElementById("btn_modal")
+btnModal.addEventListener("click", e => { modal.style.display = "flex" })
+
+const closeBtn = modal.querySelector(" .close-area")
+closeBtn.addEventListener("click", e => { modal.style.display = "none" })
