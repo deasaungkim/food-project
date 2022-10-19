@@ -13,6 +13,8 @@ body {
 	padding: 0;
 }
 
+a:link {}
+
 a:visited {
 	color: #000;
 }
@@ -29,25 +31,24 @@ a:visited {
 	margin: auto;
 }
 
-.header_user {
+.header-user {
 	background-color: skyblue;
 	text-align: right;
 	display: block;
 
 }
 
-.header_user-area {
+.header-user-area {
 	display: flex;
 	margin-left: auto;
-	background-color: blue;
 	width: 250px;
 }
 
-.header_user-area>li:not(:last-child) {
+.header-user-area>li:not(:last-child) {
 	border-right: solid;
 }
 
-.header_user-area>li {
+.header-user-area>li {
 	padding-right: 10px;
 	padding-left: 5px;
 	width: inherit;
