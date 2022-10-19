@@ -27,10 +27,10 @@ function selectAll(selectAll) {
 // var BMI = weight / (height ** 2);
 // var bt=document.getElementById("bmibyt").addEventListener('submit', BMIFunc)
 // console.log()
-window.onload = () => {
-	var bt = document.getElementById("bmibt")
-	bt.addEventListener("click", BMIFunc)
-}
+// window.onload = () => {
+// var bt = document.getElementById('bmibtn-submit')
+// bt.addEventListener("click", BMIFunc)
+
 function BMIFunc() {
 
 	const height = document.getElementById('InputHeight').value
@@ -38,7 +38,7 @@ function BMIFunc() {
 	const result = document.getElementById('BMIResult')
 
 	var BMI = (weight / ((height ** 2) / 10000)).toFixed(2)
-
+	console.log(BMI)
 	if (BMI <= 18.5) {
 		// document.write('저체중').getElementById('BMIResult').value
 		// result.innerText = '저체중'
