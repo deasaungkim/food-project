@@ -5,6 +5,7 @@
 	border-style: none;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 html,
@@ -12,8 +13,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
-a:link {}
 
 a:visited {
 	color: #000;
@@ -417,15 +416,8 @@ footer {
 
 
 
-/* ============Join2.html ======================================================================================================================================================*/
+/* ============join2.html ======================================================================================================================================================*/
 
-
-
-
-.Lable_font {
-	width: 150px;
-	background-color: blue;
-}
 
 .memberBox {
 	width: 780px;
@@ -438,36 +430,39 @@ footer {
 	margin-bottom: 60px;
 }
 
-.Join2-container {
-	background-color: pink;
-	margin: auto;
-
+.Lable_font {
+	width: 150px;
+	background-color: blue;
 }
 
-.Join2-container p {
 
+.join2-container {
+	background-color: pink;
+}
+
+.join2-container p {
 	margin-bottom: 60px;
 }
 
-.Join2-container>div {
+.join2-container>div {
 	display: flex;
 	margin-bottom: 60px;
 }
 
-.Join2-container input {
+.join2-container input {
 	border: solid gray;
 	border-radius: 4px;
 }
 
-.Join2-container>div:nth-of-type(8n)>input {
+.join2-container>div:nth-of-type(8n)>input {
 	width: 155px;
 }
 
-.Join2-container>div:nth-of-type(5n)>input {
+.join2-container>div:nth-of-type(5n)>input {
 	width: 184px;
 }
 
-.Join2-container>div>input {
+.join2-container>div>input {
 	width: 500px;
 	padding-left: 10px;
 }
@@ -477,28 +472,21 @@ footer {
 	border-radius: 4px;
 }
 
-.test1 {
-	display: inline-block;
-	background-color: blue;
-	width: 150px;
-}
-
-
-div>span {
+.Check {
 	border: solid;
-	color: #000;
-	text-align: center;
+	background-color: aqua;
 	cursor: pointer;
-	padding: 30px;
+	width: 90px;
+	margin-left: 60px;
 }
 
-div>span:first-child {
-	padding-right: 50px;
-	padding-left: 50px;
-}
-
-div>span:last-child {
-	background-color: yellow;
+.btn_male {
+	width: 30px;
+	height: 30px;
+	border: solid;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-right: 10px;
 }
 
 .memberBox-list {
@@ -506,7 +494,6 @@ div>span:last-child {
 	height: 100px;
 	line-height: 100px;
 	text-align: center;
-	margin: auto;
 	background-color: yellow;
 	cursor: pointer;
 	margin-bottom: 60px;
@@ -521,21 +508,4 @@ div>span:last-child {
 
 .memberBox-list>li:not(:last-child) {
 	border-right: none;
-}
-
-
-.Check {
-	border: solid;
-	background-color: aqua;
-	cursor: pointer;
-	width: 90px;
-}
-
-.btn_male {
-	width: 30px;
-	height: 30px;
-	border: solid;
-	border-radius: 50%;
-	cursor: pointer;
-	margin-right: 10px;
 }
